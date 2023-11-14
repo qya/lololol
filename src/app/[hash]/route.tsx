@@ -3,6 +3,7 @@ import { errorPage, simpleDecode } from "../../../lib/utils";
 import { notFound, redirect } from 'next/navigation'
 
 export async function GET(
+    request: Request,
     { params }: { params: { hash: string } }
   ) {
     const slug = params.hash.toLowerCase();
