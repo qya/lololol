@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/docs/logo-white.png" width="200px" height="200px" alt="logo" />
+  <img src="public/docs/logo-white.png" width="370px" height="80px" alt="logo" />
   <h1>lox8.lol</h1>
   <p>lolololololol.lol is a free confuser URL Website. <b>No login, no ads, no track!</b></p>
 </div>
