@@ -3,7 +3,7 @@ import { join } from 'path'
 import { createHash } from 'crypto';
 import { crc32 } from './utils';
 
-const urlsDirectory = join(process.cwd(), '_urls')
+const urlsDirectory = join(process.cwd(), 'public/_urls')
 
 export function getShortsSlugs() {
   return readdir(urlsDirectory)
